@@ -84,7 +84,12 @@ li{
 
 #email{
     color: var(--mainTextColor);
+        font-weight: 300;
+    color: var(--secondaryTextColor);
+    font-size: 0.9em;
+    transition: 0.3s;
 }
+
 
 #socials--list{
     display: flex;
@@ -106,9 +111,24 @@ li{
     font-size: 0.9em;
 }
 
+#appointments--list{
+    list-style: none;
+}
+
+#education--list{
+    list-style: none;
+}
+
 #qualifications--list{
     list-style: none;
 }
+
+#awards--list{
+}
+
+
+
+
 
 #wrapper--techstack__items{
     display: flex;
